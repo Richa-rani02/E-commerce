@@ -12,18 +12,17 @@ document.querySelector('#menu-btn').onclick = () =>{
     searchForm.classList.remove('active');
     loginForm.classList.remove('active');
 }
-
-window.onscroll = () =>{
-    searchForm.classList.remove('active');
-    profilepage.classList.remove('active');
-    navbar.classList.remove('active');
-}
-
 let profilepage = document.querySelector('.profile-page');
 
 document.querySelector('#profile-btn').onclick = () =>{
     profilepage.classList.toggle('active');
     searchForm.classList.remove('active');
-    shoppingCart.classList.remove('active');
     navbar.classList.remove('active');
 }
+window.onscroll = () =>{
+    profilepage.classList.remove('active');
+    navbar.classList.remove('active');
+    searchForm.classList.remove('active');
+    
+}
+
