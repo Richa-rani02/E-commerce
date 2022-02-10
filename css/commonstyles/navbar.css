@@ -5,7 +5,7 @@
     justify-content: space-around;
     padding: 2rem 9%;
     background-color: var(--white);
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;

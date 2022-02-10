@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import "/css/commonstyles/navbar.css";
+@import "/css/commonstyles/color.css";
+@import "/css/commonstyles/reset.css";
+@import "/css/commonstyles/base.css";
+
+body{
+    background-color: var(--bg-color);
+}
+section{
+    padding:2rem 9%;
+}
+
+.login ,.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--bg-color);
+    
+}
+
+.login-form ,.signup-form {
+    width: 35rem;
+    padding: 2rem;
+    background-color: var(--white);
+    border-radius: 8px;
+}
+.login-form h3, .signup-form h3{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.login-form .box , .signup-form .box{
+    width: 100%;
+    background-color: var(--bg-color);
+    padding:1.1rem;
+    margin: 1rem 0;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+    color:var(--primary-color);
+}
+
+.login-form p, .signup-form p{
+    font-size: 1.4rem;
+    padding:.5rem 0;
+    color:var(--light-color);
+    text-align: left;
+}
+
+.login-form p a,.signup-form  p a{
+    color: var(--secondary-color);
+}
+
+.btn{
+    margin-top: 2rem;
+    display: inline-block;
+    padding:.8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    border:.2rem solid var(--primary-color);
+    color:var(--primary-color);
+    cursor: pointer;
+    background: none;
+}
+
+.btn:hover{
+    background: var(--secondary-color);
+    color:var(--white);
+}
