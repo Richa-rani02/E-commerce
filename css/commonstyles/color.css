@@ -1,0 +1,15 @@
+:root{
+    --secondary-color:#ff7800;
+    --secondary-light:#f90;
+    --primary-color:#130f40;
+    --accent-color:#32CD32;
+    --title-color:#2F9B11;
+    --white:#ffffff;
+    --black:#000000;
+    --bg-color:#eee;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    --border:.2rem solid rgba(0,0,0,.1);
+    --outline:.1rem solid rgba(0,0,0,.1);
+    --outline-hover:.2rem solid var(--primary-color);
+}
