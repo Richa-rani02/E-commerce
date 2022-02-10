@@ -1,0 +1,210 @@
+@import "/css/commonstyles/navbar.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import "/css/commonstyles/color.css";
+@import "/css/commonstyles/reset.css";
+
+body{
+    background-color: var(--bg-color);
+}
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.8rem 3rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    border:.2rem solid var(--primary-color);
+    color:var(--secondary-color);
+    cursor: pointer;
+    background: none;
+}
+
+.btn:hover{
+    background: var(--secondary-color);
+    color:var(--white);
+}
+.heading{
+    text-align: center;
+    padding:2rem 0;
+    padding-bottom: 1rem;
+    font-size: 3.5rem;
+    position: relative;
+    color:var(--primary-color);
+}
+
+section h3{
+    font-size: 2rem;
+ color: var(--primary-color);
+}
+.products-page {
+    margin-top: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 22rem 1fr;
+    grid-gap: 1.3rem;
+}
+
+
+.products-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:1.5rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+/* .products .product-box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+    height: auto;
+    margin-top: 3rem;
+    width: 100%;
+    cursor: pointer;
+   
+}
+*/
+.product-box{
+    background: var(--white);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    position: relative;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.product-box span {
+position: absolute;
+right: 1rem;
+top: 8px;
+width: 3.2rem;
+height: 3.2rem;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: var(--bg-color);
+color: var(--primary-color);
+border-radius: 50%;
+}
+span i{
+    font-size: 2.1rem;
+}
+.product-box span i:hover{
+    color: var(--secondary-color);
+    }
+    .card-img-container{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+.product-box img{
+    width: 100%;
+    object-fit:fill;
+    padding:5px 5px 0 5px;
+    height: 21rem;
+    /* position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%); */
+}
+.product-box h3{
+ font-size: 2.2rem;
+ color: var(--primary-color);
+}
+.product-desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.product-box .price{
+    font-size: 2rem;
+    color:var(--light-color);
+    padding:4px 0;
+}
+
+.star-rating {
+    display:flex;
+    flex-direction: row-reverse;
+    font-size:2.4rem;
+    justify-content:space-around;
+    padding:0 .2rem;
+    text-align:center;
+    width:5em;
+  }
+  
+  .star-rating input {
+    display:none;
+  }
+  
+  .star-rating label {
+    color:#ccc;
+    cursor:pointer;
+  }
+  
+  .star-rating label:hover,
+  .star-rating label:hover ~ label {
+    color:var(--secondary-light);
+  } 
+
+
+  /* ********************************Filters************************ */
+
+.filters{
+    background-color: var(--white);
+       border-radius: 5px;
+       padding: 2rem;
+       box-sizing: border-box;
+       color: var(--primary-color);
+   }
+   .filter-header-btn{
+       display: flex;
+
+    }
+    .filter-header-btn button{
+        margin-left: auto;
+        background-color: transparent;
+    }
+   .filter{
+       display: block;
+       margin: 5px 0;
+       font-size: 1.3rem;
+   }
+   /* .filter i{
+color: var(--secondary-light);
+   } */
+   .filter input{
+       padding-right: 10px;
+   }
+   .filters-section{
+    margin-bottom: 2rem;
+   }
+
+   .filters-section > strong {
+    margin: 10px 0;
+    display: block;
+    font-size: 1.5rem;
+   }
+
+   .filters > h2 {
+    font-size: 2.2rem;
+}
+
+
+
+@media (max-width: 600px) {
+    .products-page {
+        grid-template-columns: 1fr;
+    }
+    .all-filters {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .filters-section {
+        margin-right: 60px;
+    }
+}
