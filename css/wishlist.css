@@ -1,0 +1,18 @@
+@import "/css/products.css";
+
+
+html{
+    overflow-x: hidden;
+}
+section{
+    padding:2rem 5%;
+}
+ .products-grid{
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    margin-top: 3rem;
+}
+
+.product-box .badge-icon{
+    background-color: transparent;
+}
+    

@@ -64,7 +64,7 @@ section h3{
     align-items: center;
     
 }
-.product-box span {
+.product-box .badge-icon {
 position: absolute;
 right: 1rem;
 top: 8px;
