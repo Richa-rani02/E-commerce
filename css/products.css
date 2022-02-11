@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 @import "/css/commonstyles/color.css";
 @import "/css/commonstyles/reset.css";
+@import "/css/commonstyles/base.css";
 
 body{
     background-color: var(--bg-color);
@@ -52,19 +53,6 @@ section h3{
     width: 100%;
     cursor: pointer;
 }
-
-
-/* .products .product-box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap:1.5rem;
-    height: auto;
-    margin-top: 3rem;
-    width: 100%;
-    cursor: pointer;
-   
-}
-*/
 .product-box{
     background: var(--white);
     text-align: center;
@@ -105,10 +93,6 @@ span i{
     object-fit:fill;
     padding:5px 5px 0 5px;
     height: 21rem;
-    /* position:absolute;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%,-50%); */
 }
 .product-box h3{
  font-size: 2.2rem;
@@ -168,14 +152,14 @@ span i{
         margin-left: auto;
         background-color: transparent;
     }
-   .filter{
-       display: block;
+   .filter{ 
        margin: 5px 0;
        font-size: 1.3rem;
+       flex-wrap: wrap;
    }
-   /* .filter i{
-color: var(--secondary-light);
-   } */
+   .filter-block{
+    display: block;
+   }
    .filter input{
        padding-right: 10px;
    }
@@ -192,7 +176,9 @@ color: var(--secondary-light);
    .filters > h2 {
     font-size: 2.2rem;
 }
-
+.rating-slider{
+    font-size: 1.1rem;
+}
 
 
 @media (max-width: 600px) {
