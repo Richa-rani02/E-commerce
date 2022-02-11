@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link href="https://visualui.netlify.app/styles/components-main.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/css/products.css" />
+    <title>EcoLove| Products</title>
+</head>
+
+<body>
+    
+    <header class="header">
+        <div class="logo">
+            <a href="#" class="logo"> <i class="fas fa-leaf"></i> EcoLove </a>
+        </div>
+        <nav class="navbar">
+            <a href="../index.html">home</a>
+        </nav>
+        <div class="nav-icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-heart" id="wishlist-btn"></div>
+            <div class="fas fa-user" id="profile-btn"></div>
+        </div>
+        <div class="profile-page">
+            <div class="profile-container">
+
+                <div class="profile-items">
+                    <i class="fas fa-user-circle fa-lg"></i>
+                    <h3>My Profile</h3>
+                </div>
+                <a href="/Pages/signin.html">
+                    <div class="profile-items">
+                        <i class="fas fa-sign-in-alt fa-lg"></i>
+                        <h3>Login</h3>
+                    </div>
+                </a>
+                <div class="profile-items">
+                    <i class="fas fa-sign-out-alt fa-lg"></i>
+                    <h3>Logout</h3>
+                </div>
+            </div>
+        </div>
+    </header>
+    <h1 class="heading"> Products</h1>
+    <section class="products-page" id="products-page">
+       <div class="filters">
+           <div class="filter-header-btn">
+            <h2>
+                Filters
+            </h2>
+            <button>Clear All <i class="fas fa-xmark"></i></button>
+           </div>
+        
+        <div class="all-filters">
+            <div class="filters-section">
+                <strong>
+                    Category
+                </strong>
+                <label class="filter filter-block">
+                    <input type="checkbox" /> Plant Hangers
+                </label>
+                <label class="filter filter-block">
+                    <input type="checkbox" /> Macrame
+                </label>
+                <label class="filter filter-block">
+                    <input type="checkbox" /> Dreamcatcher
+                </label>
+                <label class="filter filter-block">
+                    <input type="checkbox" /> Mandala Design
+                </label>
+            </div>
+            <div class="filters-section">
+                <strong>
+                   Price
+                </strong>
+                <label class="filter filter-block">
+                    <input type="radio" name="name" /> Below 500
+                </label>
+                <label class="filter filter-block">
+                    <input type="radio" name="name" /> 500-700
+                </label>
+                <label class="filter filter-block">
+                    <input type="radio" name="name"/> low to high
+                </label>
+                <label class="filter filter-block">
+                    <input type="radio" name="name"/> high to low
+                </label>
+            </div>
+            <div class="filters-section">
+                <strong>
+                    Rating
+                </strong>
+            <div class="filter">
+             1★
+            <input type="range" min="1" max="5" id="range" class="slider" />
+            5★ 
+        </div>
+          </div>
+        </div>
+       </div>
+       <div class="products-grid">
+        <div class="product-box">
+            <span><i class="fas fa-heart"></i></span>
+            <img src="/Images/macrame2.jpg" alt="">
+            <div class="product-desc">
+            <h3>Macrame</h3>
+            <div class="price">&#x20B9; 300</div>
+            <div class="star-rating">
+                <input type="radio" id="5-stars" name="rating" value="5" />
+                <label for="5-stars" class="star">&#9733;</label>
+                <input type="radio" id="4-stars" name="rating" value="4" />
+                <label for="4-stars" class="star">&#9733;</label>
+                <input type="radio" id="3-stars" name="rating" value="3" />
+                <label for="3-stars" class="star">&#9733;</label>
+                <input type="radio" id="2-stars" name="rating" value="2" />
+                <label for="2-stars" class="star">&#9733;</label>
+                <input type="radio" id="1-star" name="rating" value="1" />
+                <label for="1-star" class="star">&#9733;</label>
+              </div>
+        </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="product-box">
+            <span><i class="fas fa-heart"></i></span>
+            <img src="/Images/macrame3.jpg" alt="">
+            <div class="product-desc">
+            <h3>Macrame</h3>
+            <div class="price">&#x20B9; 300</div>
+            <div class="star-rating">
+                <input type="radio" id="5-stars" name="rating" value="5" />
+                <label for="5-stars" class="star">&#9733;</label>
+                <input type="radio" id="4-stars" name="rating" value="4" />
+                <label for="4-stars" class="star">&#9733;</label>
+                <input type="radio" id="3-stars" name="rating" value="3" />
+                <label for="3-stars" class="star">&#9733;</label>
+                <input type="radio" id="2-stars" name="rating" value="2" />
+                <label for="2-stars" class="star">&#9733;</label>
+                <input type="radio" id="1-star" name="rating" value="1" />
+                <label for="1-star" class="star">&#9733;</label>
+              </div>
+        </div>
+            <a href="#" class="btn">add to cart</a>
+
+        </div>
+
+        <div class="product-box">
+            <span><i class="fas fa-heart"></i></span>
+            <img src="/Images/macrame2.jpg" alt="">
+            <div class="product-desc">
+            <h3>Macrame</h3>
+            <div class="price">&#x20B9; 300</div>
+            <div class="star-rating">
+                <input type="radio" id="5-stars" name="rating" value="5" />
+                <label for="5-stars" class="star">&#9733;</label>
+                <input type="radio" id="4-stars" name="rating" value="4" />
+                <label for="4-stars" class="star">&#9733;</label>
+                <input type="radio" id="3-stars" name="rating" value="3" />
+                <label for="3-stars" class="star">&#9733;</label>
+                <input type="radio" id="2-stars" name="rating" value="2" />
+                <label for="2-stars" class="star">&#9733;</label>
+                <input type="radio" id="1-star" name="rating" value="1" />
+                <label for="1-star" class="star">&#9733;</label>
+              </div>
+        </div>
+            <a href="#" class="btn">add to cart</a>
+           
+        </div>
+        <div class="product-box">
+            <span><i class="fas fa-heart"></i></span>
+            <img src="/Images/macrame2.jpg" alt="">
+            <div class="product-desc">
+            <h3>Macrame</h3>
+            <div class="price">&#x20B9; 300</div>
+            <div class="star-rating">
+                <input type="radio" id="5-stars" name="rating" value="5" />
+                <label for="5-stars" class="star">&#9733;</label>
+                <input type="radio" id="4-stars" name="rating" value="4" />
+                <label for="4-stars" class="star">&#9733;</label>
+                <input type="radio" id="3-stars" name="rating" value="3" />
+                <label for="3-stars" class="star">&#9733;</label>
+                <input type="radio" id="2-stars" name="rating" value="2" />
+                <label for="2-stars" class="star">&#9733;</label>
+                <input type="radio" id="1-star" name="rating" value="1" />
+                <label for="1-star" class="star">&#9733;</label>
+              </div>
+        </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="product-box">
+            <span><i class="fas fa-heart"></i></span>
+            <img src="/Images/macrame2.jpg" alt="">
+            <div class="product-desc">
+            <h3>Macrame</h3>
+            <div class="price">&#x20B9; 300</div>
+            <div class="star-rating">
+                <input type="radio" id="5-stars" name="rating" value="5" />
+                <label for="5-stars" class="star">&#9733;</label>
+                <input type="radio" id="4-stars" name="rating" value="4" />
+                <label for="4-stars" class="star">&#9733;</label>
+                <input type="radio" id="3-stars" name="rating" value="3" />
+                <label for="3-stars" class="star">&#9733;</label>
+                <input type="radio" id="2-stars" name="rating" value="2" />
+                <label for="2-stars" class="star">&#9733;</label>
+                <input type="radio" id="1-star" name="rating" value="1" />
+                <label for="1-star" class="star">&#9733;</label>
+              </div>
+        </div>
+            <a href="#" class="btn">add to cart</a>
+
+        </div>
+        <div class="product-box">
+            <span><i class="fas fa-heart"></i></span>
+            <img src="/Images/macrame2.jpg" alt="">
+            <div class="product-desc">
+            <h3>Macrame</h3>
+            <div class="price">&#x20B9; 300</div>
+            <div class="star-rating">
+                <input type="radio" id="5-stars" name="rating" value="5" />
+                <label for="5-stars" class="star">&#9733;</label>
+                <input type="radio" id="4-stars" name="rating" value="4" />
+                <label for="4-stars" class="star">&#9733;</label>
+                <input type="radio" id="3-stars" name="rating" value="3" />
+                <label for="3-stars" class="star">&#9733;</label>
+                <input type="radio" id="2-stars" name="rating" value="2" />
+                <label for="2-stars" class="star">&#9733;</label>
+                <input type="radio" id="1-star" name="rating" value="1" />
+                <label for="1-star" class="star">&#9733;</label>
+              </div>
+        </div>
+            <a href="#" class="btn">add to cart</a>
+
+        </div>
+        <div class="product-box">
+            <span><i class="fas fa-heart"></i></span>
+            <img src="/Images/macrame2.jpg" alt="">
+            <div class="product-desc">
+            <h3>Macrame</h3>
+            <div class="price">&#x20B9; 300</div>
+            <div class="star-rating">
+                <input type="radio" id="5-stars" name="rating" value="5" />
+                <label for="5-stars" class="star">&#9733;</label>
+                <input type="radio" id="4-stars" name="rating" value="4" />
+                <label for="4-stars" class="star">&#9733;</label>
+                <input type="radio" id="3-stars" name="rating" value="3" />
+                <label for="3-stars" class="star">&#9733;</label>
+                <input type="radio" id="2-stars" name="rating" value="2" />
+                <label for="2-stars" class="star">&#9733;</label>
+                <input type="radio" id="1-star" name="rating" value="1" />
+                <label for="1-star" class="star">&#9733;</label>
+              </div>
+        </div>
+            <a href="#" class="btn">add to cart</a>
+
+        </div>
+        <div class="product-box">
+            <span><i class="fas fa-heart"></i></span>
+            <img src="/Images/macrame2.jpg" alt="">
+            <div class="product-desc">
+            <h3>Macrame</h3>
+            <div class="price">&#x20B9; 300</div>
+            <div class="star-rating">
+                <input type="radio" id="5-stars" name="rating" value="5" />
+                <label for="5-stars" class="star">&#9733;</label>
+                <input type="radio" id="4-stars" name="rating" value="4" />
+                <label for="4-stars" class="star">&#9733;</label>
+                <input type="radio" id="3-stars" name="rating" value="3" />
+                <label for="3-stars" class="star">&#9733;</label>
+                <input type="radio" id="2-stars" name="rating" value="2" />
+                <label for="2-stars" class="star">&#9733;</label>
+                <input type="radio" id="1-star" name="rating" value="1" />
+                <label for="1-star" class="star">&#9733;</label>
+              </div>
+        </div>
+            <a href="#" class="btn">add to cart</a>
+
+        </div>
+       </div>
+    </section>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
