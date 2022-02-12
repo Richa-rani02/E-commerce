@@ -75,6 +75,7 @@ section h3{
      max-height: 20rem;
     background-color: var(--white);
     margin: 0 5rem;
+    /* flex-wrap: wrap; */
 }
 
 .cart-img{
