@@ -4,11 +4,8 @@
 @import "/css/commonstyles/reset.css";
 @import "/css/commonstyles/base.css";
 
-body{
-    background-color: var(--bg-color);
-}
 section{
-    padding:2rem 9%;
+    padding:2rem 5%;
 }
 
 .login ,.signup {
@@ -16,8 +13,7 @@ section{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: var(--bg-color);
-    
+    background-color: var(--bg-color);   
 }
 
 .login-form ,.signup-form {
