@@ -1,67 +1,113 @@
-html{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+html {
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
+body {
+    font-size: 1.6rem;
+    background-color: var(--bg-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+
+    /* ******************colors****************** */
+
+
+    --secondary-color: #ff7800;
+    --secondary-light: #f90;
+    --primary-color: #130f40;
+    --accent-color: #32CD32;
+    --title-color: #2F9B11;
+    --white: #ffffff;
+    --black: #000000;
+    --bg-color: #eee;
+    --light-color: #666;
+    --light-pink: navajowhite;
+    --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    --border: .2rem solid rgba(0, 0, 0, .1);
+    --outline: .1rem solid rgba(0, 0, 0, .1);
+    --outline-hover: .2rem solid var(--primary-color);
+
+
+    /* ******************spacing************** */
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
 /* media queries  */
 
-@media (max-width:990px){
+@media (max-width:990px) {
 
 
-    html{
+    html {
         font-size: 55%;
     }
 
-    .header{
-        padding:2rem;
+    .header {
+        padding: 2rem;
     }
 
-    section{
-        padding:2rem;
+    section {
+        padding: 2rem;
     }
 
 }
 
-@media (max-width:767px){
+@media (max-width:767px) {
 
-    #menu-btn{
+    #menu-btn {
         display: inline-block;
     }
 
-    .header .search-form{
-        width:90%;
+    .header .search-form {
+        width: 90%;
     }
 
-    .header .navbar{
+    .header .navbar {
         position: absolute;
-        top:101%; right:-110%;
-        width:30rem;
+        top: 101%;
+        right: -110%;
+        width: 30rem;
         box-shadow: var(--box-shadow);
         border-radius: 8px;
         background: var(--white);
     }
 
-    .header .navbar.active{
-        right:0;
+    .header .navbar.active {
+        right: 0;
         transition: .4s linear;
     }
 
-    .header .navbar a{
+    .header .navbar a {
         font-size: 2rem;
-        margin:2rem 2.5rem;
+        margin: 2rem 2.5rem;
         display: block;
     }
 
 }
 
-@media (max-width:450px){
+@media (max-width:450px) {
 
-    html{
+    html {
         font-size: 50%;
     }
 
-    .heading{
+    .heading {
         font-size: 2.5rem;
     }
 }
