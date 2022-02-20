@@ -5,7 +5,7 @@
 @import "/css/commonstyles/base.css";
 
 section{
-    padding:2rem 5%;
+    padding:var(--spacing-2) 5%;
 }
 
 .login ,.signup {
@@ -18,9 +18,9 @@ section{
 
 .login-form ,.signup-form {
     width: 35rem;
-    padding: 2rem;
+    padding:var(--spacing-2);
     background-color: var(--white);
-    border-radius: 8px;
+    border-radius: var(--spacing-8x);
 }
 .login-form h3, .signup-form h3{
     font-size: 2.5rem;
@@ -31,16 +31,16 @@ section{
 .login-form .box , .signup-form .box{
     width: 100%;
     background-color: var(--bg-color);
-    padding:1.1rem;
-    margin: 1rem 0;
-    border-radius: .5rem;
+    padding:var(--spacing-1-2);
+    margin: var(--spacing-1) 0;
+    border-radius: var(--spacing-0-5);
     font-size: 1.6rem;
     color:var(--primary-color);
 }
 
 .login-form p, .signup-form p{
     font-size: 1.4rem;
-    padding:.5rem 0;
+    padding:var(--spacing-0-5) 0;
     color:var(--light-color);
     text-align: left;
 }
@@ -50,12 +50,12 @@ section{
 }
 
 .btn{
-    margin-top: 2rem;
+    margin-top: var(--spacing-2);
     display: inline-block;
-    padding:.8rem 3rem;
+    padding:var(--spacing-0-8) var(--spacing-3);
     font-size: 1.7rem;
-    border-radius: .5rem;
-    border:.2rem solid var(--primary-color);
+    border-radius: var(--spacing-0-5);
+    border:var(--spacing-0-2) solid var(--primary-color);
     color:var(--primary-color);
     cursor: pointer;
     background: none;
