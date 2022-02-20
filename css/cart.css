@@ -10,38 +10,18 @@ section {
 }
 
 .btn {
-
-    margin-top:var(--spacing-1);
-    display: inline-block;
-    padding: var(--spacing-0-8) var(--spacing-3);
-    font-size:var(--spacing-1-5);
-    color: var(--white);
-    cursor: pointer;
-}
-
-.btn-solid {
-    background: var(--secondary-color);
-}
-
-.btn-outline {
-    border: var(--spacing-0-2) solid var(--primary-color);
-    color: var(--secondary-color);
-    background-color: transparent;
-    border-radius:var(--spacing-0-5);
-}
-
-.btn-outline:hover {
-    background: var(--secondary-color);
-    color: var(--white);
-}
-
-.heading {
+    margin-top: var(--spacing-1);
+    font-size: 1.5rem;
     text-align: center;
-    padding: var(--spacing-2) 0;
-    padding-bottom: var(--spacing-1);
-    font-size: 3.5rem;
-    position: relative;
-    color: var(--primary-color);
+    
+}
+.btn-outline-primary{
+    color: var(--text-primary-color);
+}
+
+.btn:hover {
+    background: var(--secondary-color);
+
 }
 
 section h3 {
@@ -155,7 +135,7 @@ section h3 {
     display: flex;
     flex-direction: column;
     padding: var(--spacing-2);
-    color: var(--primary-color);
+    color: var(--text-primary-color);
     height: fit-content;
 }
 
