@@ -5,11 +5,11 @@ html{
     overflow-x: hidden;
 }
 section{
-    padding:2rem 5%;
+    padding:var(--spacing-2) 5%;
 }
  .products-grid{
     grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
-    margin-top: 3rem;
+    margin-top: var(--spacing-3);
 }
 
 .product-box .badge-icon{

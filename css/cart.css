@@ -6,15 +6,15 @@
 @import "/css/commonstyles/base.css";
 
 section {
-    padding: 2rem 9%;
+    padding: var(--spacing-2) 9%;
 }
 
 .btn {
 
-    margin-top: 1rem;
+    margin-top:var(--spacing-1);
     display: inline-block;
-    padding: .8rem 3rem;
-    font-size: 1.5rem;
+    padding: var(--spacing-0-8) var(--spacing-3);
+    font-size:var(--spacing-1-5);
     color: var(--white);
     cursor: pointer;
 }
@@ -24,10 +24,10 @@ section {
 }
 
 .btn-outline {
-    border: .2rem solid var(--primary-color);
+    border: var(--spacing-0-2) solid var(--primary-color);
     color: var(--secondary-color);
     background-color: transparent;
-    border-radius: .5rem;
+    border-radius:var(--spacing-0-5);
 }
 
 .btn-outline:hover {
@@ -37,8 +37,8 @@ section {
 
 .heading {
     text-align: center;
-    padding: 2rem 0;
-    padding-bottom: 1rem;
+    padding: var(--spacing-2) 0;
+    padding-bottom: var(--spacing-1);
     font-size: 3.5rem;
     position: relative;
     color: var(--primary-color);
@@ -53,40 +53,40 @@ section h3 {
 /* *************************** Cart ******************************* */
 
 .cart-page {
-    margin-top: 1.5rem;
+    margin-top:var(--spacing-1-5);
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 30rem;
-    grid-gap: 3rem;
+    grid-gap: var(--spacing-3);
     height: 100%;
 }
 
 .cart-container {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: var(--spacing-2);
 }
 
 .cart-item {
-    max-width: 500px;
+    max-width: 50rem;
     display: flex;
     position: relative;
     background-color: var(--white);
 }
 
 .cart-item img {
-    height: 200px;
+    height: 20rem;
     object-fit: cover;
 }
 
 .cart-content {
-    padding: 0 2rem;
+    padding: 0 var(--spacing-2);
 }
 
 .cart-heading {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: var(--spacing-10x);
 }
 
 .cart-btn-group {
@@ -95,17 +95,17 @@ section h3 {
     align-items: flex-end;
     justify-content: flex-end;
     width: 100%;
-    margin-bottom: 2px;
+    margin-bottom: var(--spacing-2x);
 }
 
 .product-price {
-    gap: 5px;
+    gap: var(--spacing-5x);
 }
 
 .previous-price {
     text-decoration: line-through;
     color: var(--light-color);
-    margin-left: 10px;
+    margin-left: var(--spacing-10x);
 }
 
 .badge-icon {
@@ -128,9 +128,9 @@ section h3 {
 
 .quantity {
     display: flex;
-    gap: 10px;
+    gap: var(--spacing-10x);
     align-items: center;
-    margin-top: 1rem;
+    margin-top: var(--spacing-1);
 }
 
 .btn-qty {
@@ -154,7 +154,7 @@ section h3 {
     background-color: var(--white);
     display: flex;
     flex-direction: column;
-    padding: 2rem 2rem;
+    padding: var(--spacing-2);
     color: var(--primary-color);
     height: fit-content;
 }
@@ -171,11 +171,11 @@ section h3 {
 }
 
 hr {
-    border: 1px solid var(--light-color)
+    border: var(--spacing-1x) solid var(--light-color)
 }
 
 .checkout-details {
-    padding: 1.2rem 0;
+    padding: var(--spacing-1-2) 0;
     font-size: 1.4rem;
 }
 
@@ -188,11 +188,11 @@ hr {
 }
 
 .checkout-details span {
-    padding-bottom: 10px;
+    padding-bottom: var(--spacing-10x);
 }
 
 .checkout-container .btn {
-    margin-top: 2.5rem;
+    margin-top: var(--spacing-2-5);
     margin-bottom: 0;
 }
 
