@@ -12,7 +12,3 @@ section{
     grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
     margin-top: var(--spacing-3);
 }
-
-.product-box .badge-icon{
-    background-color: transparent;
-}
