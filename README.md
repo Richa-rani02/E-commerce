@@ -33,7 +33,7 @@ On the [wishlist](https://eco-love.netlify.app/pages/wishlist) page, you can see
 ## Authentication
 The authentication pages can be accessed by clicking the drop down user icon on the navbar. It contains:
  - [Login](https://eco-love.netlify.app/pages/signin)
- - [signup] (https://eco-love.netlify.app/pages/signup.html)
+ - [Signup](https://eco-love.netlify.app/pages/signup.html)
 
 
 ## Recording
