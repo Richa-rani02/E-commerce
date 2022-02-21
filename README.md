@@ -11,30 +11,28 @@
 
 ## Home
 A [landing page](https://eco-love.netlify.app/) with a list of featured categories and a section for best selling products.
-![image]
-
 
 ## Product Listing Page 
 A page with all the products with different categories [products](https://eco-love.netlify.app/pages/products) alongwith filter on categories, price and rating.
 
-![image]
 
 ## Cart Management
 On the [cart](https://eco-love.netlify.app/pages/cart) page, you can add more quantity of the same products or remove the product from cart and move it to Wishlist.
 
-There's a checkout section with a price summary of the products present in the cart. You can see the price details section with total price ,discounts (if any) .
-
-![image]
+There's a checkout section with a price summary of the products present in the cart. You can see the price details section with total price ,discounts (if any).
 
 
 ## Wishlist Management
 On the [wishlist](https://eco-love.netlify.app/pages/wishlist) page, you can see the wishlisted products .It has two button  Add to Cart to move product into cart and Remove to remove product from wishlist.
 
+
 ## Authentication
 The authentication pages can be accessed by clicking the drop down user icon on the navbar. It contains:
  - [Login](https://eco-love.netlify.app/pages/signin)
  - [Signup](https://eco-love.netlify.app/pages/signup.html)
+  
+![ecommercedemo1](https://user-images.githubusercontent.com/49235266/154947895-ae60b2b7-4b4e-4004-97bc-686206ce2058.gif)
 
 
-## Recording
+
 
