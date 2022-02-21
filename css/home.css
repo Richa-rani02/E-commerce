@@ -1,5 +1,4 @@
 @import "/css/commonstyles/navbar.css";
-@import "/css/commonstyles/color.css";
 @import "/css/commonstyles/reset.css";
 @import "/css/products.css";
 @import "/css/commonstyles/base.css";
@@ -24,8 +23,7 @@ section {
     margin-top: var(--spacing-2);
     text-align: center;
     width: 50rem;
-
-
+    height: max-content;
 }
 
 .home-title {

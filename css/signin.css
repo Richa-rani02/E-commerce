@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 @import "/css/commonstyles/navbar.css";
-@import "/css/commonstyles/color.css";
 @import "/css/commonstyles/reset.css";
 @import "/css/commonstyles/base.css";
 
@@ -48,18 +47,6 @@ section{
 .login-form p a,.signup-form  p a{
     color: var(--secondary-color);
 }
-
-/* .btn{
-    margin-top: var(--spacing-2);
-    display: inline-block;
-    padding:var(--spacing-0-8) var(--spacing-3);
-    font-size: 1.7rem;
-    border-radius: var(--spacing-0-5);
-    border:var(--spacing-0-2) solid var(--primary-color);
-    color:var(--primary-color);
-    cursor: pointer;
-    background: none;
-} */
 
 .btn{
     width: auto;

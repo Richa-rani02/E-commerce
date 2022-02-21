@@ -142,13 +142,8 @@ a {
         margin: var(--spacing-2) var(--spacing-2-5);
         display: block;
     }
-    .home::before{
-    content: '';
-    position: absolute;
-    top:0; left: 0;
-    height: 100%;
-    width:100%;
-    background: rgba(255,255,255,.7);
+    .home-content{
+    background: rgba(235, 232, 232, 0.7);
     }
 }
 
