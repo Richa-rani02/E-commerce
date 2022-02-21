@@ -163,9 +163,6 @@ span i{
    .filters > h2 {
     font-size: 2.2rem;
 }
-.rating-slider{
-    font-size: 1.1rem;
-}
 
 
 @media (max-width: 600px) {
