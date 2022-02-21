@@ -15,7 +15,7 @@
 .header .logo {
     font-size: 2.5rem;
     font-weight: bolder;
-    color:var(--primary-color);
+    color:var(--black);
 }
 
 .header .logo i{
@@ -25,7 +25,7 @@
 .header .navbar a{
     font-size: 1.7rem;
     margin:0 var(--spacing-1);
-    color:var(--primary-color);
+    color:var(--text-primary-color);
 }
 .header .navbar a:hover{
     color:var(--secondary-color);
@@ -36,7 +36,7 @@
     line-height: 3.5rem;
     border-radius: 50%;
     background: var(--bg-color);
-    color:var(--primary-color);
+    color:var(--card-heading-color);
     font-size: 2rem;
     margin-left: var(--spacing-5x);
     cursor: pointer;

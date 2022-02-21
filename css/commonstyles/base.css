@@ -21,26 +21,29 @@ body {
 :root {
 
     /* ******************colors****************** */
-    /* #0F3E3C */
-    --primary-color: #0F3E3C;
-    --text-primary-color: #1A202C;
-    --secondary-color: #01796f;
+
+    --hue: 152;
+    --primary-color: hsl(var(--hue), 24%, 32%);
+    --secondary-color: hsl(var(--hue), 24%, 28%);
     --secondary-light: #f90;
-    /* --primary-color: #130f40; */
+    --text-primary-color: #1A202C;
     --primary-light: #5F7589;
     --button-primary: #1e3d59;
-    --accent-color: #32CD32;
+    --accent-color: gold;
     --title-color: #2F9B11;
     --text-secondary-color: #252a2e;
     --white: #ffffff;
     --black: #000000;
     --bg-color: #eee;
     --light-color: #666;
+    --card-heading-color: #333;
     --light-pink: navajowhite;
     --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
     --border: .2rem solid rgba(0, 0, 0, .1);
     --outline: .1rem solid rgba(0, 0, 0, .1);
     --outline-hover: .2rem solid var(--primary-color);
+   
+   
 
 
     /* ************************ spacing************************* */
@@ -139,7 +142,14 @@ a {
         margin: var(--spacing-2) var(--spacing-2-5);
         display: block;
     }
-
+    .home::before{
+    content: '';
+    position: absolute;
+    top:0; left: 0;
+    height: 100%;
+    width:100%;
+    background: rgba(255,255,255,.7);
+    }
 }
 
 @media (max-width:450px) {

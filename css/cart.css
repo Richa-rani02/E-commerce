@@ -24,10 +24,6 @@ section {
 
 }
 
-section h3 {
-    font-size: 2rem;
-    color: var(--primary-color);
-}
 
 
 /* *************************** Cart ******************************* */
@@ -67,6 +63,8 @@ section h3 {
 .cart-heading {
     display: flex;
     margin-bottom: var(--spacing-10x);
+   color: var(--card-heading-color);
+   font-size: 1.8rem;
 }
 
 .cart-btn-group {
